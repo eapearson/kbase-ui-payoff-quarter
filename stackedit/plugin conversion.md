@@ -167,9 +167,11 @@ mv kbase-ui-plugin-PLUGIN/src/plugin/* kbase-ui-plugin-PLUGIN/src/plugin/iframe_
 
 From kbase-ui-tools, copy assets/plugin/build to the root of the plugin
 
-This is the mechanism for fetching and "vendoring" all dependencies for this plugin.
+This provides a mechanism for fetching and "vendoring" all dependencies for this plugin.
 
 It will contain a set of all dependencies this plugin may need (all of those that were in kbase-ui originally). Later you may remove any unnecessary dependencies.
+
+< It is possible you will need to amend the dependencies to add missing ones. 
 
 E.g.
 
@@ -464,6 +466,6 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMT
-I1ODU3ODk4NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbLTEyODQwODMxMTEsMTA3MTI1Mjg3MywtMT
+E2NjQzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ==
 -->
