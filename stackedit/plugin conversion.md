@@ -139,7 +139,7 @@ It probably won't work yet - we haven’t made any functional code changes yet a
 
 Open the plugin in your editor or IDE
 
-For editing sanity, copy the eslint config file from kbase-ui-tools to the plugin.
+For editing sanity, copy the eslint config file from kbase-ui-tools to the plugin. We need to copy `assets/.eslintrc.yml` from `kbase-ui-tools` to kbase-ui-plugin-PLUGIN at the project root
 
 For example:
 
@@ -147,7 +147,7 @@ For example:
 cp kbase-ui-tools/assets/.eslintrc.yml kbase-ui-plugin-PLUGIN
 ```
 
-Copy assets/.eslintrc.yml from kbase-ui-tools to kbase-ui-plugin-PLUGIN at the project root
+
 
 #### Move the contents of src/plugin to src/plugin/iframe_root
 
@@ -466,6 +466,6 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY0MzYwODcsLTEyNTg1Nzg5ODQsMj
-I3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbLTExNTA1MTY2MjYsLTExNjY0MzYwODcsLT
+EyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
 -->
