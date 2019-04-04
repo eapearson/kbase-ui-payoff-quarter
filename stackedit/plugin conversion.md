@@ -212,6 +212,11 @@ The config.yml is loaded by main.js for compatibility. The easiest way to load a
 
 > TODO: can we drop this?
 
+E.g.
+```
+mv kbase-ui-plugin-PLUGIN/src/plugin/iframe_root/config.yml kbase-ui-plugin-PLUGIN/src/plugin/iframe_root/modules
+```
+
 #### Copy the host support into plugin
 
 The kbase-ui-tool includes support for integrating an iframe-based plugin into kbase-ui.
@@ -466,6 +471,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMT
-Y2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUxOV19
+eyJoaXN0b3J5IjpbLTExNTEwMDgwMzcsLTM3MTMwOTQxNSwxMD
+cxMjUyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUz
+NjUxOV19
 -->
