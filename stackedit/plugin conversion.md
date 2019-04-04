@@ -410,15 +410,19 @@ The primary task we repeat here goes like this:
 
 kbase-ui expects a plugins routing to be defined in the plugins top level `config.yml` file. Our current config.yml file is the one copied from kbase-ui-tools, and then lightly edited to replace "example" with our plugin name.
 
-This is what our route definition looks like in 
+This is what our route definition should look like in `kbase-ui-plugin-PLUGIN/config.yml`:
 ```
 routes:
   - path: ['PLUGIN']
+    queryParams:
+      path: {literal: 'VIEW'}
     widget: kb_plugin_PLUGIN
     authorization: true
 ```
 
 The routing mechanism is fairly simple. Each route has a path specification, which, when it matches an incoming or changed browser url, will invoke an associated widget with any detected parameters.
+
+The basic route set up in the config.yml file installed from kbase-ui-tools matches the simple path 'PLUGIN' (
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
@@ -481,8 +485,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTA2OTYzNCw2MDMzNzcyODcsMTU2MD
-EyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUs
-MTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMj
-c1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbMTEzMzgyOTgzLDYwMzM3NzI4NywxNTYwMT
+IzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwx
+MDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNz
+UzNjUxOV19
 -->
