@@ -426,9 +426,11 @@ The basic route set up in the config.yml file installed from kbase-ui-tools matc
 
 ##### Authorization required?
 
-A route may specify that authorization is required in order to load it. This allows kbase-ui to enforce a 
+A route may specify that authorization is required in order to load it. This allows kbase-ui to enforce a simple authorization gate on a plugin path. If kbase-ui detects that the browser is not authorized (no kbase token in the cookie kbase_session), it will enter the login auth flow automatically. At the end of successful authentication, kbase-ui will invoke the originally requested path.
 
 ##### Setting the view
+
+When a plugin po
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
@@ -491,7 +493,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Njk4NTEwNiw2MDMzNzcyODcsMTU2MD
+eyJoaXN0b3J5IjpbLTE0ODA4NDE0OCw2MDMzNzcyODcsMTU2MD
 EyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUs
 MTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMj
 c1MzY1MTldfQ==
