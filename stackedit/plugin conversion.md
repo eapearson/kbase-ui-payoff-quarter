@@ -436,7 +436,7 @@ You should open the original config.yml, located now in `kbase-ui-plugin-PLUGIN/
 
 A route may specify that authorization is required in order to load it. This allows kbase-ui to enforce a simple authorization gate on a plugin path. If kbase-ui detects that the browser is not authorized (no kbase token in the cookie kbase_session), it will enter the login auth flow automatically. At the end of successful authentication, kbase-ui will invoke the originally requested path.
 
-##### Setting the view
+##### Setting the view in config.yml
 
 When a plugin operates inside of an iframe, a special "view" parameter is passed as a route parameter. This view parameter represents a simple mapping of string to widget. The view is defined in config.yml, and is handled by the main.js boot script inside iframe_root.
 
@@ -445,10 +445,13 @@ For a simple plugin with one route, it isn't really necessary to invoke this vie
 Set the view as the value of the `view` property. You may choose any value which makes sense for this view. 
 
 
+##### Setting the view in main.js
+
+Inside the iframe, the `main.js` file is responsible for handling routing within the app. It will receive the `params.view` property and dispatch the
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
-Inside the iframe, the `main.js` file is responsible for doing something with this routing information (more about that below.)
+
 
 Our job is to ensure that for each route originally defined (as can be found in `iframe_root/modules/config.yml` we create a new route which leads to our one widget.)
 
@@ -507,8 +510,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMzMzMTE2LC01Njc0OTczMjcsNjAzMz
-c3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkxLDEzMzE2NTIyOCwt
-MzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNT
-g1Nzg5ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbLTgyMjcwNjY3OCwtNTY3NDk3MzI3LDYwMz
+M3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgs
+LTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMj
+U4NTc4OTg0LDIyNzUzNjUxOV19
 -->
