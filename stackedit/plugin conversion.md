@@ -504,20 +504,27 @@ make dev-start env=dev build=dev build-image=t
 You may need to force the image rebuilding by deleting the image; we’ve made no changes to kbase-ui so an image rebuild will not necessarily be triggered.
 I will often just delete the docker disk image - this is necessary to do on mac anyway, on occasion.
 The first pass on this plugin is done
-A note about runtime usage
+
+## Notes
+
+### A note about runtime usage
 Some old old code uses early versions of config and service, e.g. getConfig, getService, not to mention getKbaseSession!
 Links from a plugin to itself or to other plugins (hash routes without kbase-ui) need to be handled somewhat specially, and may require porting:
+
 A ui navigation url begins with /#PLUGIN:
+
 The initial / ensures that the hash is rooted at the url root for the ui. Many plugins use # without the leading /. Since a plugin operates on a path (not at the root), such urls will be treated as relative to the plugin.
+
 The link includes the target attribute set to “_parent” (unless “_blank” is already used). This forces the browser to send the navigation request to the ui and not to the iframe.
+
 Urls which are set directly on the window (window.location.href = “#blah”) may be okay; the kbase-ui integration code catches changes the hashchange  and forwards them to the ui through the communication channel.
 TODO: Verify that this works well.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjkwNDIzOCwtNTY3NDk3MzI3LDYwMz
-M3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgs
-LTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMj
-U4NTc4OTg0LDIyNzUzNjUxOV19
+eyJoaXN0b3J5IjpbLTEyNzI2NDQxMzQsLTgwNjkwNDIzOCwtNT
+Y3NDk3MzI3LDYwMzM3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5
+MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMT
+Y2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUxOV19
 -->
