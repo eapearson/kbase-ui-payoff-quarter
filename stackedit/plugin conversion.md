@@ -117,9 +117,6 @@ At present this repo contains starter files and libraries, but does not provide 
 ## Converting a Plugin
 
 ### Adjust kbase-ui’s plugin configuration to enable this plugin
-
-In the kbase-ui repo
-
 In `config/app/dev/plugins.yml` and `config/app/prod/plugins.yml` there should already be an entry for this plugin. (All existing plugins were commented out at the beginning of this project.)
 
 Uncomment the entry for this plugin
@@ -471,5 +468,5 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODYzNTAwNywyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbMTEzOTAwMTU5MiwyMjc1MzY1MTldfQ==
 -->
