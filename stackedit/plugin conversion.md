@@ -201,7 +201,7 @@ Note that the modules directory needs to be merged (not replace the modules dire
 E.e.
 
 ```
-cp -pr kbase-ui-tools/assets/plugin/iframe_support/modules/iframe_support kbase-ui-plugin-PLUGIN/src/plugin/iframe_root
+cp -pr kbase-ui-tools/assets/plugin/iframe_support kbase-ui-plugin-PLUGIN/src/plugin/iframe_root
 ```
 
 #### Move the original config file
@@ -466,6 +466,6 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTA1MzMxOSwxMDcxMjUyODczLC0xMT
+eyJoaXN0b3J5IjpbLTQ1NDMyNDUyNCwxMDcxMjUyODczLC0xMT
 Y2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUxOV19
 -->
