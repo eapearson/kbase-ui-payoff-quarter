@@ -139,7 +139,7 @@ It probably won't work yet - we haven’t made any functional code changes yet a
 
 Open the plugin in your editor or IDE
 
-For editing sanity, copy the eslint config file from kbase-ui-tools to the plugin. We need to copy `assets/.eslintrc.yml` from `kbase-ui-tools` to kbase-ui-plugin-PLUGIN at the project root
+For editing sanity, copy the eslint config file from kbase-ui-tools to the plugin. We need to copy `kbase-ui-tools/assets/.eslintrc.yml` to `kbase-ui-plugin-PLUGIN` at the project root
 
 For example:
 
@@ -466,6 +466,6 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA1MTY2MjYsLTExNjY0MzYwODcsLT
+eyJoaXN0b3J5IjpbLTIwOTcyMjY3NDMsLTExNjY0MzYwODcsLT
 EyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
 -->
