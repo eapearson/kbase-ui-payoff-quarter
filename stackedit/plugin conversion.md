@@ -230,7 +230,7 @@ This includes a stub config, example primary panel, and all supporting libraries
 E.g.
 
 ```
-cp kbase-ui-tools/assets/plugin/host_support/* kbase-ui-plugin-PLUGIN/src/plugin
+cp -pr kbase-ui-tools/assets/plugin/host_support/* kbase-ui-plugin-PLUGIN/src/plugin
 ```
 
 #### Restart kbase-ui
@@ -471,7 +471,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEwMDgwMzcsLTM3MTMwOTQxNSwxMD
-cxMjUyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUz
-NjUxOV19
+eyJoaXN0b3J5IjpbMTMzMTY1MjI4LC0zNzEzMDk0MTUsMTA3MT
+I1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1
+MTldfQ==
 -->
