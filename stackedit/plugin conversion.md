@@ -427,6 +427,10 @@ The routing mechanism is fairly simple. Each route has a path specification, whi
 
 The basic route set up in the config.yml file installed from kbase-ui-tools matches the simple path 'PLUGIN' (where PLUGIN is of course your plugin name). In the browser this route would appear as the url `https://ci.kbase.us/#PLUGIN`.
 
+##### Carry over settings from original route
+
+You should open the original config.yml, located now in `kbase-ui-plugin-PLUGIN/src/plugin/iframe_root/modules/config.yml`.
+
 ##### Authorization required?
 
 A route may specify that authorization is required in order to load it. This allows kbase-ui to enforce a simple authorization gate on a plugin path. If kbase-ui detects that the browser is not authorized (no kbase token in the cookie kbase_session), it will enter the login auth flow automatically. At the end of successful authentication, kbase-ui will invoke the originally requested path.
@@ -437,7 +441,9 @@ When a plugin operates inside of an iframe, a special "view" parameter is passed
 
 For a simple plugin with one route, it isn't really necessary to invoke this view mechanism. However, since it is already set up in the support files installed from kbase-ui-tools, it makes sense to implement it.
 
-Set the view as the value of the `view` property. You may choose any value which makes sense for this view. For a plugin with just one view
+Set the view as the value of the `view` property. You may choose any value which makes sense for this view. 
+
+
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
@@ -500,8 +506,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3MDQ3Mjk3LC01Njc0OTczMjcsNjAzMz
-c3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkxLDEzMzE2NTIyOCwt
-MzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNT
-g1Nzg5ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbLTM3MTk4Mzc2NiwtNTY3NDk3MzI3LDYwMz
+M3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgs
+LTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMj
+U4NTc4OTg0LDIyNzUzNjUxOV19
 -->
