@@ -147,13 +147,11 @@ For example:
 cp kbase-ui-tools/assets/.eslintrc.yml kbase-ui-plugin-PLUGIN
 ```
 
-
-
 #### Move the contents of src/plugin to src/plugin/iframe_root
 
 The file movement tasks should be conducted in the file manager (Finder); some IDEs do not support moving or copying of files very well.
 
-Or third party tool, e.g. “Commander One”
+Or third party tool, e.g. “Commander One”, may be more convenient.
 
 * Create  directory src/plugin/iframe_root
 * Move modules, resources (if present), config.yml to iframe_root
@@ -466,6 +464,6 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcyMjY3NDMsLTExNjY0MzYwODcsLT
-EyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbMTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMT
+I1ODU3ODk4NCwyMjc1MzY1MTldfQ==
 -->
