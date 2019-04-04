@@ -422,7 +422,13 @@ routes:
 
 The routing mechanism is fairly simple. Each route has a path specification, which, when it matches an incoming or changed browser url, will invoke an associated widget with any detected parameters.
 
-The basic route set up in the config.yml file installed from kbase-ui-tools matches the simple path 'PLUGIN' (
+The basic route set up in the config.yml file installed from kbase-ui-tools matches the simple path 'PLUGIN' (where PLUGIN is of course your plugin name). In the browser this route would appear as the url `https://ci.kbase.us/#PLUGIN`.
+
+##### Authorization required?
+
+A route may specify that authorization is required in order to load it. This allows kbase-ui to enforce a 
+
+##### Setting the view
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
@@ -485,8 +491,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzgyOTgzLDYwMzM3NzI4NywxNTYwMT
-IzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwx
-MDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNz
-UzNjUxOV19
+eyJoaXN0b3J5IjpbMTM3Njk4NTEwNiw2MDMzNzcyODcsMTU2MD
+EyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUs
+MTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMj
+c1MzY1MTldfQ==
 -->
