@@ -406,6 +406,8 @@ The primary task we repeat here goes like this:
 * Ensure that this route is handled in `src/plugin/iframe_root/main.js`
 * Ensure that the widget which handles the route works correctly
 
+Below we'll walk through the process of porting one route
+
 #### Ensure that a route exists
 
 kbase-ui expects a plugins routing to be defined in the plugins top level `config.yml` file. Our current config.yml file is the one copied from kbase-ui-tools, and then lightly edited to replace "example" with our plugin name.
@@ -430,9 +432,6 @@ The basic route set up in the config.yml file installed from kbase-ui-tools matc
 ##### Carry over settings from original route
 
 You should open the original config.yml, located now in `kbase-ui-plugin-PLUGIN/src/plugin/iframe_root/modules/config.yml`. You will compare the configuration of the original route to the new one in `kbase-ui-plugin-PLUGIN/src/plugin/config.yml`. All of the settings should match, including path, queryParams, and authorization.
-
-The widget will need to be changed, and a new property added.
-
 ##### Authorization required?
 
 A route may specify that authorization is required in order to load it. This allows kbase-ui to enforce a simple authorization gate on a plugin path. If kbase-ui detects that the browser is not authorized (no kbase token in the cookie kbase_session), it will enter the login auth flow automatically. At the end of successful authentication, kbase-ui will invoke the originally requested path.
@@ -508,8 +507,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTM0MzQyMzUsLTU2NzQ5NzMyNyw2MD
-MzNzcyODcsMTU2MDEyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4
-LC0zNzEzMDk0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMT
-I1ODU3ODk4NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbLTkzMDA3MzUyNiwtNTY3NDk3MzI3LDYwMz
+M3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgs
+LTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMj
+U4NTc4OTg0LDIyNzUzNjUxOV19
 -->
