@@ -417,7 +417,7 @@ routes:
     queryParams: {
     }
     params: {
-      view: 'search'
+      view: 'VIEW'
     }
     widget: kb_plugin_PLUGIN
     authorization: true
@@ -437,7 +437,7 @@ When a plugin operates inside of an iframe, a special "view" parameter is passed
 
 For a simple plugin with one route, it isn't really necessary to invoke this view mechanism. However, since it is already set up in the support files installed from kbase-ui-tools, it makes sense to implement it.
 
-First, set the 
+Set the view as the value of the `view` property. You may choose any value which makes sense for this view. For a plugin with just one view
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
@@ -500,8 +500,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTczMTY2NywtNTY3NDk3MzI3LDYwMz
-M3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgs
-LTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMj
-U4NTc4OTg0LDIyNzUzNjUxOV19
+eyJoaXN0b3J5IjpbODE3MDQ3Mjk3LC01Njc0OTczMjcsNjAzMz
+c3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkxLDEzMzE2NTIyOCwt
+MzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNT
+g1Nzg5ODQsMjI3NTM2NTE5XX0=
 -->
