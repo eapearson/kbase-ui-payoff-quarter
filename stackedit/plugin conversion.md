@@ -447,7 +447,9 @@ Set the view as the value of the `view` property. You may choose any value which
 
 ##### Setting the view in main.js
 
-Inside the iframe, the `main.js` file is responsible for handling routing within the app. It will receive the `params.view` property and dispatch the
+Inside the iframe, the `main.js` file is responsible for handling routing within the app. It will receive the `params.view` property and dispatch the matching widget, if any.
+
+
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
@@ -459,12 +461,16 @@ Copy the routes from iframe_root/modules/config.yml (which will not be used dire
 
 The iframe based routing works best with a single point of entry. One route on the host side of the plugin catches everything sent to the top navigation path; the iframe side of the plugin receives this and does it’s own internal routing.
 Some plugins cannot have a full movement of plugin functionality into an iframe; e.g. auth-client login/logout integration. In such cases, the plugin config may continue to support multiple routes. However, there will still be a single route which leads into the iframe.
+
 This is enabled by the route syntax:
+
 Capture the path after the initial element with a ‘rest’ parameter type
 Capture all extra path elements (beyond what is defined) with captureExtraPath
 Capture all extra search query params with captureExtraSearch
+
 In iframe_root/main.js, you’ll need to set up routes:
 Find the comment // Add routes here
+
 Main.js routes work by dispatching on the second path element. The first was used by the ui (or rather the top level config.yml for this plugin) to dispatch to the plugin itself. The second element is used to dispatch on the “view”
 If this is not possible, an outer route can set the view in queryParams as the literal param named ‘view’
 queryParams:
@@ -510,7 +516,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjcwNjY3OCwtNTY3NDk3MzI3LDYwMz
+eyJoaXN0b3J5IjpbLTgwNjkwNDIzOCwtNTY3NDk3MzI3LDYwMz
 M3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgs
 LTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMj
 U4NTc4OTg0LDIyNzUzNjUxOV19
