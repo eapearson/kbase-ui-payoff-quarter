@@ -266,7 +266,7 @@ In `src/plugin/config.yml`, copied from kbase-ui-tools, “example” is used as
 
 Replace instances of “example” with the name of your plugin. It is best to conduct this with case sensitivity, and to separately refactor "example", "Example" and other usages which may appear.
 
-Take your browser to https://ci.kbase.us#PLUGIN. You may need to re
+Take your browser to https://ci.kbase.us#PLUGIN. You may need to reload the url after changing it, in order to reload the kbase-ui. You should see the same "hello" content.
 
 #### Fix menu
 
@@ -473,7 +473,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwODkwNDcwLDEzMzE2NTIyOCwtMzcxMz
-A5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNTg1Nzg5
-ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbLTE4NTM2NDI3NjQsMTMzMTY1MjI4LC0zNz
+EzMDk0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3
+ODk4NCwyMjc1MzY1MTldfQ==
 -->
