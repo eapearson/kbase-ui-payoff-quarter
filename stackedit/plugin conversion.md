@@ -104,19 +104,19 @@ Depending on your IDE, it may be most convenient to open your plugin in the IDE 
 ```
 code .
 ```
+### Install the kbase ui tools in the project directory
+
+```
+git clone https://github.com/eapearson/kbase-ui-tools
+```
+
+These tools include scripts to help with the conversion from a classic plugin to an iframe plugin.
+
+> Note: At present this repo contains starter files and libraries, but does not provide automation scripts.
 
 ## Converting a Plugin
 
-### Clone upstream plugin repo
-
-In the project directory, clone the upstream repo in the payoff branch:
-
-```
-git clone -b payoff https://github.com/kbase/kbase-ui-plugin-PLUGIN
-cd kbase-ui-plugin-PLUGIN
-git remote set-url --push origin nopush
-git remote add fork ssh://git@github.com/YOURACCOUNT/kbase-ui-plugin-PLUGIN
-```
+That would be ideal, if only it worked; for now, we need to do this by hand:
 
 ### Adjust kbase-ui’s plugin configuration to enable this plugin
 
@@ -139,25 +139,8 @@ make dev-start env=dev build=dev build-image=t
 It will probably not work yet - we haven’t made any functional code changes yet and the payoff-branch of kbase-ui has most probably dropped dependencies this plugin needs. We are primarily testing that the ui builds correctly with this plugin added.
 
 
-### Install the kbase ui tools in the project directory
 
-```
-git clone https://github.com/eapearson/kbase-ui-tools
-```
 
-These tools include scripts to help with the conversion from a classic plugin to an iframe plugin.
-
-### Convert the plugin to the basic iframe form
-
-Run the conversion script.
-
-```
-cd project/kbase-ui-tools
-npm install
-npm run upgrade-plugin typeview
-```
-
-That would be ideal, if only it worked; for now, we need to do this by hand:
 
 #### Copy eslint file
 
@@ -490,5 +473,5 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODQ4Mzc1NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbLTk2MTk0NTEyNCwyMjc1MzY1MTldfQ==
 -->
