@@ -392,6 +392,7 @@ becomes
 </html>
 ```
 
+Before we can successfully attempt to load the plugin, we need to complete at l
 #### Wire in plugin routes, one at a time.
 
 This will be a cycle of enabling one route at a time, and resolving issues with it.
@@ -471,7 +472,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDEyMzQ4NSw1OTk4MDM1OTEsMTMzMT
-Y1MjI4LC0zNzEzMDk0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4
-NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbLTE1MjA3ODY2NzgsMTU2MDEyMzQ4NSw1OT
+k4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUsMTA3MTI1Mjg3
+MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ
+==
 -->
