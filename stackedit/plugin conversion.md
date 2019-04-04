@@ -432,7 +432,9 @@ A route may specify that authorization is required in order to load it. This all
 
 When a plugin operates inside of an iframe, a special "view" parameter is passed as a route parameter. This view parameter represents a simple mapping of string to widget. The view is defined in config.yml, and is handled by the main.js boot script inside iframe_root.
 
-For a simple plugin with one route, it isn't really necessar
+For a simple plugin with one route, it isn't really necessary to invoke this view mechanism. However, since it is already set up in the support files installed from kbase-ui-tools, it makes sense to implement it.
+
+First, set the 
 
 With an iframe-based plugin, the same routing file is required, but instead of each route leading to an individual widget, they all lead to the same one. This widget, supplied by kbase-ui-tools, is responsible simply for passing the routing information into the iframe for evalutation.
 
@@ -495,8 +497,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEwODIwOTQsNjAzMzc3Mjg3LDE1Nj
-AxMjM0ODUsNTk5ODAzNTkxLDEzMzE2NTIyOCwtMzcxMzA5NDE1
-LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNTg1Nzg5ODQsMj
-I3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbLTU2NzQ5NzMyNyw2MDMzNzcyODcsMTU2MD
+EyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUs
+MTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMj
+c1MzY1MTldfQ==
 -->
