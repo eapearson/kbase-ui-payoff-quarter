@@ -266,6 +266,8 @@ In `src/plugin/config.yml`, copied from kbase-ui-tools, “example” is used as
 
 Replace instances of “example” with the name of your plugin. It is best to conduct this with case sensitivity, and to separately refactor "example", "Example" and other usages which may appear.
 
+Take your browser to https://ci.kbase.us#PLUGIN. You may need to re
+
 #### Fix menu
 
 Consult the original `kbase-ui-plugin-PLUGIN/src/plugin/iframe_root/modules/config.yml` file to ensure that the new `kbase-ui-plugin-PLUGIN/src/plugin/config.yml` file specifies the correct menu item, if applicable, including the original label and icon.
@@ -471,7 +473,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTY1MjI4LC0zNzEzMDk0MTUsMTA3MT
-I1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1
-MTldfQ==
+eyJoaXN0b3J5IjpbOTIwODkwNDcwLDEzMzE2NTIyOCwtMzcxMz
+A5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNTg1Nzg5
+ODQsMjI3NTM2NTE5XX0=
 -->
