@@ -133,7 +133,7 @@ cd project/kbase-ui
 make dev-start env=dev build=dev build-image=t
 ```
 
-It will probably not work yet - we haven’t made any functional code changes yet and the payoff-branch of kbase-ui has most probably dropped dependencies this plugin needs. We are primarily testing that the ui builds correctly with this plugin added.
+It probably won't work yet - we haven’t made any functional code changes yet and the payoff-branch of kbase-ui has most probably dropped dependencies this plugin needs. We are primarily testing that the ui builds correctly with this plugin added.
 
 
 
@@ -470,5 +470,6 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbMjExNzQ2MDI0OCwtMTI1ODU3ODk4NCwyMj
+c1MzY1MTldfQ==
 -->
