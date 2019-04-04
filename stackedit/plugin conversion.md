@@ -171,12 +171,12 @@ This provides a mechanism for fetching and "vendoring" all dependencies for this
 
 It will contain a set of all dependencies this plugin may need (all of those that were in kbase-ui originally). Later you may remove any unnecessary dependencies.
 
-< It is possible you will need to amend the dependencies to add missing ones. 
+> It is possible you will need to amend the dependencies to add missing ones. 
 
 E.g.
 
 ```
-cp -pr kbase-ui-tools/build kbase-ui-plugin-PLUGIN
+cp -pr kbase-ui-tools/assets/plugin/build kbase-ui-plugin-PLUGIN
 ```
 
 #### Update .gitignore
@@ -466,6 +466,6 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQwODMxMTEsMTA3MTI1Mjg3MywtMT
-E2NjQzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbMjAxNTA1MzMxOSwxMDcxMjUyODczLC0xMT
+Y2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUxOV19
 -->
