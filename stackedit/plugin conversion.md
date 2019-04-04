@@ -112,7 +112,7 @@ git clone https://github.com/eapearson/kbase-ui-tools
 
 These tools include scripts to help with the conversion from a classic plugin to an iframe plugin.
 
-> Note: At present this repo contains starter files and libraries, but does not provide automation scripts.
+At present this repo contains starter files and libraries, but does not provide automation scripts.
 
 ## Converting a Plugin
 
@@ -473,5 +473,5 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTk0NTEyNCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbNTY5NjU1MDYsMjI3NTM2NTE5XX0=
 -->
