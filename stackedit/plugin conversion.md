@@ -107,13 +107,6 @@ code .
 
 ## Converting a Plugin
 
-
-
-
-### Create a project directory
-
-We’ll be cloning all of the repos that we'll be working with into this one directory; it is best to create a fresh empty directory.
-
 ### Clone upstream plugin repo
 
 In the project directory, clone the upstream repo in the payoff branch:
@@ -497,5 +490,5 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbMTAyODQ4Mzc1NCwyMjc1MzY1MTldfQ==
 -->
