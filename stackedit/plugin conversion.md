@@ -276,15 +276,11 @@ The widget the menu is associated with should stay as it is.
 
 If there is more than one route defined in the original config.yml, we’ll address those later. Just pick the most sensible one to start with.
 
-Reload in the browser https://ci.kbase.us#PLUGIN to confirm that the changes took hold.
-
 #### Set up menu items in kbase-ui
 
 Menu items are defined in top level config.yml, but will not appear in the ui unless they are enabled in the kbase-ui configuration.
 
-The files `config/app/dev/services.yml` and `config/app/prod/services.yml` contain the definitions of both the hamburger and sidebar navigation.
-
-> Note that soon we will condense down to a single set of app configuration files.
+The files `config/app/services.yml`  contains the definitions of both the hamburger and sidebar navigation.
 
 After updating the ui services.yml files, you’ll need to rebuild the ui
 
@@ -473,7 +469,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM2NDI3NjQsMTMzMTY1MjI4LC0zNz
-EzMDk0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3
-ODk4NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbNTk5ODAzNTkxLDEzMzE2NTIyOCwtMzcxMz
+A5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNTg1Nzg5
+ODQsMjI3NTM2NTE5XX0=
 -->
