@@ -392,7 +392,8 @@ becomes
 </html>
 ```
 
-Before we can successfully attempt to load the plugin, we need to complete at l
+Before we can successfully attempt to load the plugin, we need to complete the rewiring of at least one route.
+
 #### Wire in plugin routes, one at a time.
 
 This will be a cycle of enabling one route at a time, and resolving issues with it.
@@ -472,8 +473,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA3ODY2NzgsMTU2MDEyMzQ4NSw1OT
-k4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUsMTA3MTI1Mjg3
-MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ
-==
+eyJoaXN0b3J5IjpbNjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5OD
+AzNTkxLDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMs
+LTExNjY0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
 -->
