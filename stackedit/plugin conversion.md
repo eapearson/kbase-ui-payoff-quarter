@@ -288,6 +288,8 @@ After updating the ui services.yml files, you’ll need to rebuild the ui
 make dev-start env=dev build=dev build-image=t plugins="PLUGIN"
 ```
 
+Reload https://ci.kbase.us#PLUGIN again to ensure that the menu item has appeared correctly.
+
 #### Install dependencies into iframe
 
 The iframe dependencies are “installed” by “vendoring” packages fetched with bower and npm. 
@@ -469,7 +471,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5ODAzNTkxLDEzMzE2NTIyOCwtMzcxMz
-A5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcsLTEyNTg1Nzg5
-ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbMTU2MDEyMzQ4NSw1OTk4MDM1OTEsMTMzMT
+Y1MjI4LC0zNzEzMDk0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4
+NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ==
 -->
