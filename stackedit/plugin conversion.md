@@ -195,7 +195,7 @@ You’ll need to edit the `.gitignore` file in your plugin root directory, addin
 
 ```
 node_modules/
-bower_modules/
+bower_components/
 ```
 
 #### Copy iframe support source into plugin:
@@ -555,10 +555,10 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODQ0MzA5MywtMTU4OTEyNjA3Nyw0OD
-M0MjQyNzYsNTYwNTgxMzAyLDE5NjMxOTAxNzMsMjE1MDkyNzQ3
-LC04MDY5MDQyMzgsLTU2NzQ5NzMyNyw2MDMzNzcyODcsMTU2MD
-EyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUs
-MTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMj
-c1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbLTgxMzQ3NzMwOCwyMDQ4NDQzMDkzLC0xNT
+g5MTI2MDc3LDQ4MzQyNDI3Niw1NjA1ODEzMDIsMTk2MzE5MDE3
+MywyMTUwOTI3NDcsLTgwNjkwNDIzOCwtNTY3NDk3MzI3LDYwMz
+M3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgs
+LTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMj
+U4NTc4OTg0LDIyNzUzNjUxOV19
 -->
