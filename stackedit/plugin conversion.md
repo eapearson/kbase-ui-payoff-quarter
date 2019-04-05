@@ -322,6 +322,8 @@ npm outdated
 
 If there are any listed, consider addressing them in this plugin codebase by updating the version specified in `build/package.json`.
 
+If you have updated dependencies, perform another npm install
+
 
 ##### Check for out of date bower dependencies
 
@@ -550,9 +552,9 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzgxMzM0Niw1NjA1ODEzMDIsMTk2Mz
-E5MDE3MywyMTUwOTI3NDcsLTgwNjkwNDIzOCwtNTY3NDk3MzI3
-LDYwMzM3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNj
-UyMjgsLTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3
-LC0xMjU4NTc4OTg0LDIyNzUzNjUxOV19
+eyJoaXN0b3J5IjpbNDgzNDI0Mjc2LDU2MDU4MTMwMiwxOTYzMT
+kwMTczLDIxNTA5Mjc0NywtODA2OTA0MjM4LC01Njc0OTczMjcs
+NjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkxLDEzMzE2NT
+IyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcs
+LTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
 -->
