@@ -55,6 +55,7 @@ Clone the kbase-ui repo, make sure you can’t push to it,
 
 ```
 git clone -b payoff https://github.com/kbase/kbase-ui
+cd kbase-ui
 git set-url --push origin nopush
 ```
 
@@ -539,9 +540,9 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3MzMyMjU1LDIxNTA5Mjc0NywtODA2OT
-A0MjM4LC01Njc0OTczMjcsNjAzMzc3Mjg3LDE1NjAxMjM0ODUs
-NTk5ODAzNTkxLDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNT
-I4NzMsLTExNjY0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5
-XX0=
+eyJoaXN0b3J5IjpbLTcwMDAwNDk1MSwyMTUwOTI3NDcsLTgwNj
+kwNDIzOCwtNTY3NDk3MzI3LDYwMzM3NzI4NywxNTYwMTIzNDg1
+LDU5OTgwMzU5MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwxMDcxMj
+UyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUx
+OV19
 -->
