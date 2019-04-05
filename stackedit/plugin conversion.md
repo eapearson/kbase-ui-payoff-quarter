@@ -56,7 +56,7 @@ Clone the kbase-ui repo, make sure you can’t push to it,
 ```
 git clone -b payoff https://github.com/kbase/kbase-ui
 cd kbase-ui
-git set-url --push origin nopush
+git remote set-url --push origin nopush
 ```
 
 If you haven’t yet forked the kbase-ui repo, please do so at github.
@@ -67,14 +67,12 @@ Add your fork as a remote:
 git remote add fork ssh://git@github.com/YOU/kbase-ui
 ```
 
-Or
-git remote add fork https://github.com/YOU/kbase-ui
-
 ### Set up the plugin repo
 
 Clone the plugin repo you are working on. If you haven’t forked it at github, please do so now.
 
 ```
+cd ..
 git clone -b payoff https://github.com/kbase/kbase-ui-plugin-PLUGIN
 ```
 
@@ -540,7 +538,7 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDAwNDk1MSwyMTUwOTI3NDcsLTgwNj
+eyJoaXN0b3J5IjpbMTA0Mjg4MjA3NywyMTUwOTI3NDcsLTgwNj
 kwNDIzOCwtNTY3NDk3MzI3LDYwMzM3NzI4NywxNTYwMTIzNDg1
 LDU5OTgwMzU5MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwxMDcxMj
 UyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUx
