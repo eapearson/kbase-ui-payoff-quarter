@@ -46,6 +46,7 @@ The plugin configuration
 E.g. 
 ```
 mkdir project
+cd project
 ```
 
 ### Set up the kbase-ui repo
@@ -538,8 +539,9 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1MDkyNzQ3LC04MDY5MDQyMzgsLTU2Nz
-Q5NzMyNyw2MDMzNzcyODcsMTU2MDEyMzQ4NSw1OTk4MDM1OTEs
-MTMzMTY1MjI4LC0zNzEzMDk0MTUsMTA3MTI1Mjg3MywtMTE2Nj
-QzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbOTY3MzMyMjU1LDIxNTA5Mjc0NywtODA2OT
+A0MjM4LC01Njc0OTczMjcsNjAzMzc3Mjg3LDE1NjAxMjM0ODUs
+NTk5ODAzNTkxLDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNT
+I4NzMsLTExNjY0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5
+XX0=
 -->
