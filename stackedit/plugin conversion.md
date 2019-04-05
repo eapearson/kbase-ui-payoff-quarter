@@ -314,7 +314,7 @@ npm install
 
 ##### Check for out of date npm dependencies
 
-We do this when opportunity presents itself, just to keep the difference between current releases and those in 
+We do this when opportunity presents itself, just to keep the difference between current releases and those in use as small as possible.
 
 ```
 npm outdated
@@ -550,7 +550,7 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjk2MDA1NSw1NjA1ODEzMDIsMTk2Mz
+eyJoaXN0b3J5IjpbMjA3MzgxMzM0Niw1NjA1ODEzMDIsMTk2Mz
 E5MDE3MywyMTUwOTI3NDcsLTgwNjkwNDIzOCwtNTY3NDk3MzI3
 LDYwMzM3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNj
 UyMjgsLTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3
