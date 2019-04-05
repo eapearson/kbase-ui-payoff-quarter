@@ -507,13 +507,20 @@ Menu items are defined in top level config.yml
 Menu items are enabled in the ui in kbase-ui config/app/dev/services.yml and config/app/prod/services.yml
 
 After updating the ui services.yml files, you’ll need to rebuild the ui
+```
 make dev-start env=dev build=dev build-image=t plugins="PLUGIN"
+```
 When done, push to your fork (payoff branch)
+
 Then PR to origin/upstream.
+
 Then build the ui without local plugin override.
+
 make dev-start env=dev build=dev build-image=t
 You may need to force the image rebuilding by deleting the image; we’ve made no changes to kbase-ui so an image rebuild will not necessarily be triggered.
+
 I will often just delete the docker disk image - this is necessary to do on mac anyway, on occasion.
+
 The first pass on this plugin is done
 
 ## Notes
@@ -534,7 +541,7 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODUyNzY1MiwtODA2OTA0MjM4LC01Nj
+eyJoaXN0b3J5IjpbLTk3NTkyODQ3NCwtODA2OTA0MjM4LC01Nj
 c0OTczMjcsNjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkx
 LDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNj
 Y0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
