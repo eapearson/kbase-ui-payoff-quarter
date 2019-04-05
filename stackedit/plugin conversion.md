@@ -333,7 +333,9 @@ If you have updated dependencies, perform another npm install
 
 This displays the dependency tree; packages with newer versions are indicated.
 
-If you feel that a version update is necessary, you'll need to make the change to `build/bower.json`. Then re-run bower-installer.
+If you feel that a version update is necessary, you'll need to make the change to `build/bower.json`. 
+
+If you made changes to `bower.json`, re-run bower-installer.
 
 > Also consider propagating the same updates into kbase-ui-tools
 
@@ -552,9 +554,9 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzNDI0Mjc2LDU2MDU4MTMwMiwxOTYzMT
-kwMTczLDIxNTA5Mjc0NywtODA2OTA0MjM4LC01Njc0OTczMjcs
-NjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkxLDEzMzE2NT
-IyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNjY0MzYwODcs
-LTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbLTE1ODkxMjYwNzcsNDgzNDI0Mjc2LDU2MD
+U4MTMwMiwxOTYzMTkwMTczLDIxNTA5Mjc0NywtODA2OTA0MjM4
+LC01Njc0OTczMjcsNjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5OD
+AzNTkxLDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMs
+LTExNjY0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
 -->
