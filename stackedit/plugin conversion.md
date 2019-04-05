@@ -522,9 +522,6 @@ You may need to force the image rebuilding by deleting the image; we’ve made n
 I will often just delete the docker disk image - this is necessary to do on mac anyway, on occasion.
 
 The first pass on this plugin is done
-
-## Notes
-
 ### A note about runtime usage
 Some old old code uses early versions of config and service, e.g. getConfig, getService, not to mention getKbaseSession!
 Links from a plugin to itself or to other plugins (hash routes without kbase-ui) need to be handled somewhat specially, and may require porting:
@@ -539,10 +536,10 @@ Urls which are set directly on the window (window.location.href = “#blah”) m
 TODO: Verify that this works well.
 
 
-
+### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTkyODQ3NCwtODA2OTA0MjM4LC01Nj
-c0OTczMjcsNjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkx
-LDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNj
-Y0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbMjE1MDkyNzQ3LC04MDY5MDQyMzgsLTU2Nz
+Q5NzMyNyw2MDMzNzcyODcsMTU2MDEyMzQ4NSw1OTk4MDM1OTEs
+MTMzMTY1MjI4LC0zNzEzMDk0MTUsMTA3MTI1Mjg3MywtMTE2Nj
+QzNjA4NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ==
 -->
