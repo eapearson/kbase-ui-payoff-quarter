@@ -479,22 +479,33 @@ The widget module which is invoked by the view will receive the remainder of the
 Reload the browser
 The first time you get this working, things will probably be broken.
 Look out for modules which don’t load. If the module being loaded is terribly obsolete, think about an easy way to refactor. For instance, kb_ko is an obsolete knockout wrapper, kb_knockout is better.
+
+## Notes
+
 Here are some various notes on porting issues:
-A note on routes.
+### A note on routes.
 TODO
-Fix up links
+### Fix up links
 Links formed like “#plugin/some/thing” will need to be rewritten as “/#/plugin/some/thing”. Since the plugin is located at an internal path within the ui, the initial “/” is required to ensure that the url starts at the root.
-A note on reentrant top level widgets.
+### A note on reentrant top level widgets.
 Widgets which utilize the “run” widget method may be run as a reentrant route. In such cases, if the route widget is already mounted and it is re-invoked on a change of route, the run method is called with the route params, rather than dismounting, mounting, etc.
+
 This is faster for users, but you must make sure.
-A note on styles:
+
+### A note on styles:
 All classnames should be unique, to reduce the chance of conflicts
+
 To accomplish this, namespace based on the plugin:
+
 E.g. MyPlugin for the root (in index.html)
+
 Simple plugins which just dump content into the node and expect it to scroll should set this in index.css on the root div (which should have a classname MyPlugin).
-Set up menu items.
+
+### Set up menu items.
 Menu items are defined in top level config.yml
+
 Menu items are enabled in the ui in kbase-ui config/app/dev/services.yml and config/app/prod/services.yml
+
 After updating the ui services.yml files, you’ll need to rebuild the ui
 make dev-start env=dev build=dev build-image=t plugins="PLUGIN"
 When done, push to your fork (payoff branch)
@@ -523,8 +534,8 @@ TODO: Verify that this works well.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI2NDQxMzQsLTgwNjkwNDIzOCwtNT
-Y3NDk3MzI3LDYwMzM3NzI4NywxNTYwMTIzNDg1LDU5OTgwMzU5
-MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwxMDcxMjUyODczLC0xMT
-Y2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUxOV19
+eyJoaXN0b3J5IjpbMTk0ODUyNzY1MiwtODA2OTA0MjM4LC01Nj
+c0OTczMjcsNjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5ODAzNTkx
+LDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMsLTExNj
+Y0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
 -->
