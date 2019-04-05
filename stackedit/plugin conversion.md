@@ -67,6 +67,14 @@ Add your fork as a remote:
 git remote add fork ssh://git@github.com/YOU/kbase-ui
 ```
 
+### Ensure the state of kbase-ui is usable
+
+Since the `payoff` branch is under continuous development, it is wise to first make sure it builds and operates before building a workflow around it.
+
+```
+make dev-start built-image=t
+```
+
 ### Set up the plugin repo
 
 Clone the plugin repo you are working on. If you haven’t forked it at github, please do so now.
@@ -538,7 +546,7 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Mjg4MjA3NywyMTUwOTI3NDcsLTgwNj
+eyJoaXN0b3J5IjpbMTk2MzE5MDE3MywyMTUwOTI3NDcsLTgwNj
 kwNDIzOCwtNTY3NDk3MzI3LDYwMzM3NzI4NywxNTYwMTIzNDg1
 LDU5OTgwMzU5MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwxMDcxMj
 UyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUx
