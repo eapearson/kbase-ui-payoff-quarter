@@ -126,7 +126,7 @@ At present this repo contains starter files and libraries, but does not provide 
 
 ### Adjust kbase-ui’s plugin configuration to enable this plugin
 
-In `project/kbase-ui/config/app/plugins.yml` and `project/kbase-ui/config/app/prod/plugins.yml` there should already be a commented-out entry for this plugin. (All existing plugins were commented out at the beginning of this project.)
+In `project/kbase-ui/config/app/plugins.yml`  there should already be a commented-out entry for this plugin. (All existing plugins were commented out at the beginning of this project.)
 
 Uncomment the entry for this plugin.
 
@@ -546,7 +546,7 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzMDM5NjIyLDE5NjMxOTAxNzMsMjE1MD
+eyJoaXN0b3J5IjpbNTYwNTgxMzAyLDE5NjMxOTAxNzMsMjE1MD
 kyNzQ3LC04MDY5MDQyMzgsLTU2NzQ5NzMyNyw2MDMzNzcyODcs
 MTU2MDEyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMD
 k0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4
