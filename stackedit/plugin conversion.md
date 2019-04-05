@@ -298,6 +298,8 @@ make dev-start env=dev build=dev build-image=t plugins="PLUGIN"
 
 Reload https://ci.kbase.us#PLUGIN again to ensure that the menu item has appeared correctly.
 
+You should still see the "hello" placeholder content for the plugin when you click on the menu item for it.
+
 #### Install dependencies into iframe
 
 The iframe dependencies are “installed” by “vendoring” packages fetched with bower and npm. 
@@ -546,9 +548,9 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwNTgxMzAyLDE5NjMxOTAxNzMsMjE1MD
-kyNzQ3LC04MDY5MDQyMzgsLTU2NzQ5NzMyNyw2MDMzNzcyODcs
-MTU2MDEyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMD
-k0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4
-NCwyMjc1MzY1MTldfQ==
+eyJoaXN0b3J5IjpbLTEwNzIzMTA1NDQsNTYwNTgxMzAyLDE5Nj
+MxOTAxNzMsMjE1MDkyNzQ3LC04MDY5MDQyMzgsLTU2NzQ5NzMy
+Nyw2MDMzNzcyODcsMTU2MDEyMzQ4NSw1OTk4MDM1OTEsMTMzMT
+Y1MjI4LC0zNzEzMDk0MTUsMTA3MTI1Mjg3MywtMTE2NjQzNjA4
+NywtMTI1ODU3ODk4NCwyMjc1MzY1MTldfQ==
 -->
