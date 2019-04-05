@@ -94,7 +94,7 @@ git remote set-url --push origin nopush
 git remote add fork ssh://git@github.com/YOU/kbase-ui-plugin-PLUGIN
 ```
 
-#### Creating the payoff branch
+#### If you needCreating the payoff branch
 
 As noted above, you need to be working on the `payoff` branch of the plugin. This section describes one way of adding that branch, if it does not exist yet.
 
@@ -546,9 +546,9 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzE5MDE3MywyMTUwOTI3NDcsLTgwNj
-kwNDIzOCwtNTY3NDk3MzI3LDYwMzM3NzI4NywxNTYwMTIzNDg1
-LDU5OTgwMzU5MSwxMzMxNjUyMjgsLTM3MTMwOTQxNSwxMDcxMj
-UyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4OTg0LDIyNzUzNjUx
-OV19
+eyJoaXN0b3J5IjpbLTE1MDgzNTQxODEsMTk2MzE5MDE3MywyMT
+UwOTI3NDcsLTgwNjkwNDIzOCwtNTY3NDk3MzI3LDYwMzM3NzI4
+NywxNTYwMTIzNDg1LDU5OTgwMzU5MSwxMzMxNjUyMjgsLTM3MT
+MwOTQxNSwxMDcxMjUyODczLC0xMTY2NDM2MDg3LC0xMjU4NTc4
+OTg0LDIyNzUzNjUxOV19
 -->
