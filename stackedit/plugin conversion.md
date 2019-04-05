@@ -448,6 +448,7 @@ The basic route set up in the config.yml file installed from kbase-ui-tools matc
 ##### Carry over settings from original route
 
 You should open the original config.yml, located now in `kbase-ui-plugin-PLUGIN/src/plugin/iframe_root/modules/config.yml`. You will compare the configuration of the original route to the new one in `kbase-ui-plugin-PLUGIN/src/plugin/config.yml`. All of the settings should match, including path, queryParams, and authorization.
+
 ##### Authorization required?
 
 A route may specify that authorization is required in order to load it. This allows kbase-ui to enforce a simple authorization gate on a plugin path. If kbase-ui detects that the browser is not authorized (no kbase token in the cookie kbase_session), it will enter the login auth flow automatically. At the end of successful authentication, kbase-ui will invoke the originally requested path.
@@ -554,9 +555,10 @@ TODO: Verify that this works well.
 
 ### converting usages of jg_plugin_PLUGIN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODkxMjYwNzcsNDgzNDI0Mjc2LDU2MD
-U4MTMwMiwxOTYzMTkwMTczLDIxNTA5Mjc0NywtODA2OTA0MjM4
-LC01Njc0OTczMjcsNjAzMzc3Mjg3LDE1NjAxMjM0ODUsNTk5OD
-AzNTkxLDEzMzE2NTIyOCwtMzcxMzA5NDE1LDEwNzEyNTI4NzMs
-LTExNjY0MzYwODcsLTEyNTg1Nzg5ODQsMjI3NTM2NTE5XX0=
+eyJoaXN0b3J5IjpbMjA0ODQ0MzA5MywtMTU4OTEyNjA3Nyw0OD
+M0MjQyNzYsNTYwNTgxMzAyLDE5NjMxOTAxNzMsMjE1MDkyNzQ3
+LC04MDY5MDQyMzgsLTU2NzQ5NzMyNyw2MDMzNzcyODcsMTU2MD
+EyMzQ4NSw1OTk4MDM1OTEsMTMzMTY1MjI4LC0zNzEzMDk0MTUs
+MTA3MTI1Mjg3MywtMTE2NjQzNjA4NywtMTI1ODU3ODk4NCwyMj
+c1MzY1MTldfQ==
 -->
